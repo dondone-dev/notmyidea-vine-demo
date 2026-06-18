@@ -148,8 +148,8 @@ THEME_ABOUT_MORE_LINKS = [
 # Giscus comments (values from https://giscus.app for this repo)
 GISCUS_REPO = 'dondone-dev/notmyidea-vine-demo'
 GISCUS_REPO_ID = 'R_kgDOS96b2w'
-GISCUS_CATEGORY = 'General'
-GISCUS_CATEGORY_ID = 'DIC_kwDOS96b284C_ZT6'
+GISCUS_CATEGORY = 'Announcements'
+GISCUS_CATEGORY_ID = 'DIC_kwDOS96b284C_ZT5'
 GISCUS_MAPPING = 'pathname'
 GISCUS_LANG = 'en'
 
