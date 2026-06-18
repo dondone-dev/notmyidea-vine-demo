@@ -80,6 +80,6 @@ A separator creates visual spacing between sections.
 
 ## Image
 
-![Example image](https://images.yasking.org/memos/1773193856/03.jpg)
+![Example image]({static}/images/demo-03.jpg)
 
 Images also support click-to-zoom lightbox behavior.

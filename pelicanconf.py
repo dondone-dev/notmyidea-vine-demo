@@ -95,7 +95,7 @@ INDEX_MESSAGE = 'A clean, modern Pelican theme. <a href="/pages/about.html">Lear
 THEME_ENABLE_TAG_CLOUD = True
 
 # About page avatar (optional)
-AUTHOR_AVATAR = 'https://images.yasking.org/avatar/rider2.webp'
+AUTHOR_AVATAR = '/images/avatar.webp'
 
 # About page: contact email (shown in a copy dialog; omit to hide the Contact button)
 THEME_CONTACT_EMAIL = 'example@example.com'

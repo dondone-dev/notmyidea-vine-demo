@@ -80,6 +80,6 @@ pelican content --autoreload --listen
 
 ## 图片
 
-![示例图片](https://images.yasking.org/memos/1773193856/03.jpg)
+![示例图片]({static}/images/demo-03.jpg)
 
 图片也支持点击放大（灯箱效果）。
