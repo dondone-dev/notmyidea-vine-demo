@@ -1,0 +1,3 @@
+[submodule "themes/notmyidea-vine"]
+	path = themes/notmyidea-vine
+	url = git@github.com:dondone-dev/notmyidea-vine.git

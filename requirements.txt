@@ -1,0 +1,2 @@
+pelican[markdown]>=4.10.0
+Babel>=2.14.0
