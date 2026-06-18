@@ -26,13 +26,19 @@ notmyidea-vine-demo/
 git clone --recurse-submodules https://github.com/dondone-dev/notmyidea-vine-demo.git
 cd notmyidea-vine-demo
 
+# Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
 # Install dependencies
 pip install -r requirements.txt
 
-# Build and serve
-pelican content --listen
+# Build and serve (uses the local theme directly)
+pelican content -s pelicanconf.py -t ../notmyidea-vine --autoreload --listen
 # Open http://localhost:8000
 ```
+
+> **Tip:** The `-t ../notmyidea-vine` flag points directly to a local clone of the theme repo, so any changes you make to the theme are reflected immediately on refresh without going through the submodule.
 
 ## Cloudflare Pages Deployment
 
