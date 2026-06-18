@@ -1,5 +1,7 @@
 title: Soulignement, emphase et surlignage
 date: 2026-03-06 23:34:00
+lang: fr
+slug: underline-highlight
 Category: Feature
 Tags: Thème
 

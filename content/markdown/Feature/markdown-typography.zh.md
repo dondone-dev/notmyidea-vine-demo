@@ -1,7 +1,9 @@
-title: Markdown Typography Showcase
+title: Markdown 排版展示
 date: 2026-06-18 12:00:00
+lang: zh
+slug: markdown-typography
 Category: Feature
-Tags: Markdown, Typography
+Tags: Markdown, 排版
 
 这篇文章展示主题对常见 Markdown 排版元素的渲染效果。
 

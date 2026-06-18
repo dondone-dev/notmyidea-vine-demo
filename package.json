@@ -1,0 +1,13 @@
+{
+  "name": "notmyidea-vine-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build:shiki-content": "node scripts/build_shiki_content.mjs"
+  },
+  "dependencies": {
+    "@shikijs/transformers": "^4.0.1",
+    "shiki": "^3.14.0"
+  }
+}

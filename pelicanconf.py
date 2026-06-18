@@ -41,8 +41,8 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
     ('Home', '/'),
     ('Feature', '/category/feature.html'),
-    ('About', '/pages/about.html'),
     ('More', '/pages/more.html'),
+    ('About', '/pages/about.html'),
 )
 
 # Pagination
@@ -53,8 +53,12 @@ PLUGIN_PATHS = ['plugins', 'themes/notmyidea-vine']
 PLUGINS = ['i18n_subsites', 'template_filters', 'sitemap']
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
-# i18n: single-language demo, no subsites
-I18N_SUBSITES = {}
+# i18n subsites for non-default languages (DEFAULT_LANG = 'en' stays at root)
+I18N_SUBSITES = {
+    'zh': {},
+    'fr': {},
+}
+I18N_SHOW_ONLY_CURRENT_LANG_CONTENT = True
 
 # Sitemap
 SITEMAP = {
@@ -70,11 +74,13 @@ STATIC_PATHS = [
     'images',
     'extra/robots.txt',
     'extra/favicon.ico',
+    'extra/favicon.svg',
 ]
 
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/favicon.svg': {'path': 'favicon.svg'},
 }
 
 # Theme
@@ -89,10 +95,10 @@ INDEX_MESSAGE = 'A clean, modern Pelican theme. <a href="/pages/about.html">Lear
 THEME_ENABLE_TAG_CLOUD = True
 
 # About page avatar (optional)
-# AUTHOR_AVATAR = 'https://example.com/avatar.jpg'
+AUTHOR_AVATAR = 'https://images.yasking.org/avatar/rider2.webp'
 
 # About page: contact email (shown in a copy dialog; omit to hide the Contact button)
-THEME_CONTACT_EMAIL = 'hello@example.com'
+THEME_CONTACT_EMAIL = 'example@example.com'
 
 # More page sections (rendered below the auto-generated Categories block)
 MORE_PAGE_SECTIONS = [
@@ -108,6 +114,25 @@ MORE_PAGE_SECTIONS = [
         'items': [
             {'name': 'Friends', 'url': '/pages/friends.html', 'icon': 'users'},
             {'name': 'Site History', 'url': '/pages/website-history.html', 'icon': 'history'},
+        ],
+    },
+    {
+        'title': 'Links',
+        'items': [
+            {
+                'name': 'Theme',
+                'url': 'https://github.com/dondone-dev/notmyidea-vine',
+                'icon': 'github',
+                'target': '_blank',
+                'title': 'notmyidea-vine on GitHub',
+            },
+            {
+                'name': 'Demo',
+                'url': 'https://github.com/dondone-dev/notmyidea-vine-demo',
+                'icon': 'github',
+                'target': '_blank',
+                'title': 'notmyidea-vine-demo on GitHub',
+            },
         ],
     },
 ]

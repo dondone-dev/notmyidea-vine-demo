@@ -1,5 +1,7 @@
 title: Image Layout Support
 date: 2026-03-12 19:30:00
+lang: en
+slug: image-layouts
 Category: Feature
 Tags: Theme
 

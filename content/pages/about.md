@@ -8,7 +8,7 @@ This is the official demo site for **notmyidea-vine**, a Pelican theme built for
 
 ### The Theme
 
-notmyidea-vine is a fork of [notmyidea-plus](https://github.com/dondone-dev/notmyidea-plus), designed with:
+notmyidea-vine is a Pelican theme designed with:
 
 - Clean, distraction-free reading experience
 - Mobile-responsive layout
