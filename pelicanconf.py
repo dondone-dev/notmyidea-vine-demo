@@ -91,6 +91,16 @@ THEME_ENABLE_TAG_CLOUD = True
 # About page avatar (optional)
 # AUTHOR_AVATAR = 'https://example.com/avatar.jpg'
 
+# About page: contact email (shown in a copy dialog; omit to hide the Contact button)
+THEME_CONTACT_EMAIL = 'hello@example.com'
+
+# About page: "更多内容" link cards (omit to hide the section)
+# Each entry needs: title (str), url (str), css_class (str, optional)
+THEME_ABOUT_MORE_LINKS = [
+    {'title': 'Friends', 'url': '/pages/friends.html', 'css_class': 'about-more-card--friends'},
+    {'title': 'Copyright', 'url': '/pages/copyright.html', 'css_class': 'about-more-card--copyright'},
+]
+
 # Giscus comments (optional — fill in your own repo to enable)
 # GISCUS_REPO = 'your-org/your-repo'
 # GISCUS_REPO_ID = ''
