@@ -4,7 +4,7 @@ from datetime import datetime
 NOW = datetime.now()
 
 AUTHOR = 'Demo Author'
-SITENAME = 'notmyidea-vine Demo'
+SITENAME = 'Notmyidea Vine'
 SITESUBTITLE = 'A Pelican Theme Demo'
 SITE_DESCRIPTION = 'Demo site for the notmyidea-vine Pelican theme'
 SITEURL = ''
@@ -43,6 +43,7 @@ MENUITEMS = (
     ('Technology', '/category/technology.html'),
     ('Blog', '/category/blog.html'),
     ('About', '/pages/about.html'),
+    ('More', '/pages/more.html'),
 )
 
 # Pagination
@@ -82,7 +83,7 @@ THEME = 'themes/notmyidea-vine'
 CSS_FILE = 'main.css'
 
 # Homepage
-INDEX_TITLE = 'notmyidea-vine Demo'
+INDEX_TITLE = 'Notmyidea Vine'
 INDEX_MESSAGE = 'A clean, modern Pelican theme. <a href="/pages/about.html">Learn more →</a>'
 
 # Tags cloud
@@ -93,6 +94,24 @@ THEME_ENABLE_TAG_CLOUD = True
 
 # About page: contact email (shown in a copy dialog; omit to hide the Contact button)
 THEME_CONTACT_EMAIL = 'hello@example.com'
+
+# More page sections (rendered below the auto-generated Categories block)
+MORE_PAGE_SECTIONS = [
+    {
+        'title': 'Tags & Archives',
+        'items': [
+            {'name': 'Tags', 'url': '/tags.html', 'icon': 'tag'},
+            {'name': 'Archives', 'url': '/archives.html', 'icon': 'archive'},
+        ],
+    },
+    {
+        'title': 'Pages',
+        'items': [
+            {'name': 'Friends', 'url': '/pages/friends.html', 'icon': 'users'},
+            {'name': 'Site History', 'url': '/pages/website-history.html', 'icon': 'history'},
+        ],
+    },
+]
 
 # About page: "更多内容" link cards (omit to hide the section)
 # Each entry needs: title (str), url (str), css_class (str, optional)
