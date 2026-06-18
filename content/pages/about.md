@@ -1,5 +1,6 @@
 Title: About
 Slug: about
+Template: page_about
 
 ## About This Site
 

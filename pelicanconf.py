@@ -40,8 +40,7 @@ DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = (
     ('Home', '/'),
-    ('Technology', '/category/technology.html'),
-    ('Blog', '/category/blog.html'),
+    ('Feature', '/category/feature.html'),
     ('About', '/pages/about.html'),
     ('More', '/pages/more.html'),
 )
