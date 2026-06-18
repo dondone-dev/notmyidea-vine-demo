@@ -57,6 +57,7 @@ JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 I18N_SUBSITES = {
     'zh': {},
     'fr': {},
+    'ja': {},
 }
 I18N_SHOW_ONLY_CURRENT_LANG_CONTENT = True
 
