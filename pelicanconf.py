@@ -98,6 +98,7 @@ THEME_CONTACT_EMAIL = 'hello@example.com'
 # Each entry needs: title (str), url (str), css_class (str, optional)
 THEME_ABOUT_MORE_LINKS = [
     {'title': 'Friends', 'url': '/pages/friends.html', 'css_class': 'about-more-card--friends'},
+    {'title': 'Site History', 'url': '/pages/website-history.html', 'css_class': 'about-more-card--history'},
     {'title': 'Copyright', 'url': '/pages/copyright.html', 'css_class': 'about-more-card--copyright'},
 ]
 
