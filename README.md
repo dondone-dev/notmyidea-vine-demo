@@ -1,5 +1,7 @@
 # notmyidea-vine Demo
 
+*English | [中文](README.zh.md)*
+
 Demo site for the [notmyidea-vine](https://github.com/dondone-dev/notmyidea-vine) Pelican theme, deployed on Cloudflare Pages.
 
 ## Repository Structure
@@ -54,25 +56,37 @@ make dev
 
 ## Cloudflare Pages Deployment
 
-### Via Dashboard
+### Via Dashboard (recommended)
 
-1. Connect this repo in the CF Pages dashboard
-2. Set the following build settings:
+1. In the Cloudflare dashboard, go to **Workers & Pages → Create → Pages → Connect to Git** and select this repository.
+2. On the **Set up builds and deployments** screen, fill in:
 
-| Setting | Value |
-|---------|-------|
-| Build command | `npm install && pip install -r requirements.txt && make build` |
-| Build output directory | `output` |
+   | Setting | Value |
+   |---------|-------|
+   | **Framework preset** | `None` |
+   | **Build command** | `npm install && pip install -r requirements.txt && make build` |
+   | **Build output directory** | `output` |
+   | **Root directory** | *(leave empty)* |
 
-3. After the first deploy, update `SITEURL` in `publishconf.py` to your CF Pages domain
+3. (Recommended) Under **Environment variables**, pin the toolchain versions to avoid build-image defaults that may be too old:
+
+   | Variable | Value |
+   |----------|-------|
+   | `PYTHON_VERSION` | `3.12` |
+   | `NODE_VERSION` | `20` |
+
+4. Click **Save and Deploy**. Git submodules (the theme) are checked out automatically.
+5. After the first deploy, set `SITEURL` in `publishconf.py` to your real CF Pages domain (or custom domain) and push again — feeds, sitemap, and absolute image URLs all derive from it.
+
+> **Why the build command lives in the dashboard, not `wrangler.toml`:** Cloudflare Pages does **not** support a `[build]` section in `wrangler.toml` (that is Workers-only syntax) — adding one fails config validation. `wrangler.toml` only carries the project `name` and `pages_build_output_dir`; the build command must be set in the dashboard.
 
 ### Via Wrangler CLI
 
 ```bash
-# Build
+# Build locally
 make build
 
-# Deploy
+# Deploy the output/ directory
 wrangler pages deploy output --project-name=notmyidea-vine-demo
 ```
 
