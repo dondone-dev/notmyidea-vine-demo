@@ -1,5 +1,7 @@
+# Cloudflare Pages config.
+# NOTE: Pages does NOT support a [build] section here — the build command
+# is configured in the CF dashboard (Settings → Builds & deployments):
+#   Build command:  npm install && pip install -r requirements.txt && make build
+#   Output dir:     output
 name = "notmyidea-vine-demo"
 pages_build_output_dir = "output"
-
-[build]
-command = "npm install && pip install -r requirements.txt && make build"
