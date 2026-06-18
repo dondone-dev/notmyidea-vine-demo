@@ -145,13 +145,13 @@ THEME_ABOUT_MORE_LINKS = [
     {'title': 'Copyright', 'url': '/pages/copyright.html', 'css_class': 'about-more-card--copyright'},
 ]
 
-# Giscus comments (optional — fill in your own repo to enable)
-# GISCUS_REPO = 'your-org/your-repo'
-# GISCUS_REPO_ID = ''
-# GISCUS_CATEGORY = 'Announcements'
-# GISCUS_CATEGORY_ID = ''
-# GISCUS_MAPPING = 'pathname'
-# GISCUS_LANG = 'en'
+# Giscus comments (values from https://giscus.app for this repo)
+GISCUS_REPO = 'dondone-dev/notmyidea-vine-demo'
+GISCUS_REPO_ID = 'R_kgDOS96b2w'
+GISCUS_CATEGORY = 'General'
+GISCUS_CATEGORY_ID = 'DIC_kwDOS96b284C_ZT6'
+GISCUS_MAPPING = 'pathname'
+GISCUS_LANG = 'en'
 
 # Footer
 FOOTER_NOT_BY_AI = True
