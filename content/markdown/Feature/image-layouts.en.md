@@ -1,5 +1,5 @@
 title: Image Layout Support
-date: 2026-03-12 19:30:00
+date: 2026-06-18 19:30:00
 lang: en
 slug: image-layouts
 Category: Feature

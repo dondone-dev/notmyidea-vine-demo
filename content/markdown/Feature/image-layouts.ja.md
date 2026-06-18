@@ -1,5 +1,5 @@
 title: 画像レイアウトのサポート
-date: 2026-03-12 19:30:00
+date: 2026-06-18 19:30:00
 lang: ja
 slug: image-layouts
 Category: Feature

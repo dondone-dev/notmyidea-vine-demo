@@ -1,5 +1,5 @@
 title: 밑줄, 강조 및 형광펜 효과
-date: 2026-03-06 23:34:00
+date: 2026-06-18 23:34:00
 lang: ko
 slug: underline-highlight
 Category: Feature

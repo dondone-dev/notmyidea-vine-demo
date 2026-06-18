@@ -1,5 +1,5 @@
 title: 이미지 레이아웃 지원
-date: 2026-03-12 19:30:00
+date: 2026-06-18 19:30:00
 lang: ko
 slug: image-layouts
 Category: Feature
