@@ -11,8 +11,8 @@ Tags: 博客配置
 ### 并排 2 张图
 
 <div class="media-pair">
-  <img src="{static}/images/demo-01.jpg" alt="布局示例图 01">
-  <img src="{static}/images/demo-03.jpg" alt="布局示例图 03">
+  <img src="{static}/images/demo-01.webp" alt="布局示例图 01">
+  <img src="{static}/images/demo-03.webp" alt="布局示例图 03">
 </div>
 
 <details>
@@ -32,10 +32,10 @@ Tags: 博客配置
 ### 并排 2 张图（超过 2 张自动切换）
 
 <div class="media-pair">
-  <img src="{static}/images/demo-01.jpg" alt="布局示例图 01">
-  <img src="{static}/images/demo-03.jpg" alt="布局示例图 03">
-  <img src="{static}/images/demo-05.jpg" alt="布局示例图 05">
-  <img src="{static}/images/demo-06.jpg" alt="布局示例图 06">
+  <img src="{static}/images/demo-01.webp" alt="布局示例图 01">
+  <img src="{static}/images/demo-03.webp" alt="布局示例图 03">
+  <img src="{static}/images/demo-05.webp" alt="布局示例图 05">
+  <img src="{static}/images/demo-06.webp" alt="布局示例图 06">
 </div>
 
 <details>
@@ -57,8 +57,8 @@ Tags: 博客配置
 下面这个布局适合竖图左对齐排列展示，可以通过 `media-portrait-h-220 / 240 / 280 / 360 / 480` 这几个类限制显示高度，图片会在固定高度内按比例缩小完整显示，不会被截取，也不会启用左右翻页。
 
 <div class="media-portrait-row media-portrait-h-240">
-  <img src="{static}/images/demo-02.jpg" alt="布局示例图 02">
-  <img src="{static}/images/demo-04.jpg" alt="布局示例图 04">
+  <img src="{static}/images/demo-02.webp" alt="布局示例图 02">
+  <img src="{static}/images/demo-04.webp" alt="布局示例图 04">
 </div>
 
 <details>
@@ -76,10 +76,10 @@ Tags: 博客配置
 ### 自适应多图网格
 
 <div class="media-grid cols-3 masonry-js">
-  <img src="{static}/images/demo-01.jpg" alt="布局示例图 01">
-  <img src="{static}/images/demo-02.jpg" alt="布局示例图 02">
-  <img src="{static}/images/demo-03.jpg" alt="布局示例图 03">
-  <img src="{static}/images/demo-04.jpg" alt="布局示例图 04">
+  <img src="{static}/images/demo-01.webp" alt="布局示例图 01">
+  <img src="{static}/images/demo-02.webp" alt="布局示例图 02">
+  <img src="{static}/images/demo-03.webp" alt="布局示例图 03">
+  <img src="{static}/images/demo-04.webp" alt="布局示例图 04">
 </div>
 
 <details>
@@ -100,7 +100,7 @@ Tags: 博客配置
 下面这个单图布局适合只有一张重点图的场景，可以通过 `media-w-100 / 95 / 90 ...` 这类类名控制宽度，按 5% 为步进自己调。
 
 <div class="media-single media-w-65">
-  <img src="{static}/images/demo-03.jpg" alt="布局示例图 03">
+  <img src="{static}/images/demo-03.webp" alt="布局示例图 03">
 </div>
 
 <details>
@@ -117,7 +117,7 @@ Tags: 博客配置
 ### 图左文右
 
 <div class="media-split">
-  <img src="{static}/images/demo-02.jpg" alt="布局示例图 02">
+  <img src="{static}/images/demo-02.webp" alt="布局示例图 02">
   <div>
     <p>这里是图文混排文案区域。你可以放一段简短说明、心得、步骤、引用等。</p>
     <p>这种布局适合「一张重点图 + 一段解释」的场景，阅读节奏会更自然。</p>
@@ -141,7 +141,7 @@ Tags: 博客配置
 ### 图右文左
 
 <div class="media-split reverse">
-  <img src="{static}/images/demo-04.jpg" alt="布局示例图 04">
+  <img src="{static}/images/demo-04.webp" alt="布局示例图 04">
   <div>
     <p>给容器增加 <code>reverse</code> 即可反转左右顺序，移动端会自动改为单列堆叠。</p>
     <p>你后续只需要复制这一段结构，替换图片 URL 和文字内容就能复用。</p>
@@ -165,10 +165,10 @@ Tags: 博客配置
 ### 图片轮播（含灯箱）
 
 <div class="media-carousel">
-  <img src="{static}/images/demo-01.jpg" alt="布局示例图 01">
-  <img src="{static}/images/demo-03.jpg" alt="布局示例图 03">
-  <img src="{static}/images/demo-05.jpg" alt="布局示例图 05">
-  <img src="{static}/images/demo-06.jpg" alt="布局示例图 06">
+  <img src="{static}/images/demo-01.webp" alt="布局示例图 01">
+  <img src="{static}/images/demo-03.webp" alt="布局示例图 03">
+  <img src="{static}/images/demo-05.webp" alt="布局示例图 05">
+  <img src="{static}/images/demo-06.webp" alt="布局示例图 06">
 </div>
 
 <details>
@@ -191,10 +191,10 @@ Tags: 博客配置
 主图大图居中展示，下方缩略图条显示所有图片并高亮当前项，点击 < > 或缩略图切换，点击主图进入全屏灯箱。
 
 <div class="media-gallery">
-  <img src="{static}/images/demo-01.jpg" alt="布局示例图 01">
-  <img src="{static}/images/demo-03.jpg" alt="布局示例图 03">
-  <img src="{static}/images/demo-05.jpg" alt="布局示例图 05">
-  <img src="{static}/images/demo-06.jpg" alt="布局示例图 06">
+  <img src="{static}/images/demo-01.webp" alt="布局示例图 01">
+  <img src="{static}/images/demo-03.webp" alt="布局示例图 03">
+  <img src="{static}/images/demo-05.webp" alt="布局示例图 05">
+  <img src="{static}/images/demo-06.webp" alt="布局示例图 06">
 </div>
 
 <details>

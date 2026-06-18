@@ -80,6 +80,6 @@ Un séparateur crée un espacement visuel entre les sections.
 
 ## Image
 
-![Image exemple]({static}/images/demo-03.jpg)
+![Image exemple]({static}/images/demo-03.webp)
 
 Les images supportent aussi le zoom au clic (effet lightbox).
