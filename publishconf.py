@@ -5,7 +5,7 @@
 from pelicanconf import *
 
 # Replace with your actual CF Pages domain or custom domain
-SITEURL = 'https://notmyidea-vine-demo.pages.dev'
+SITEURL = 'https://notmyidea-vine.dondone.dev'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
